@@ -62,7 +62,7 @@ routerProductos.get("/productos/:id", (req, res) => {
     res.send(producto);
   }
 });
-
+//Servidor
 //Server
 const PORT = 8080;
 const server = app.listen(PORT, () => {
